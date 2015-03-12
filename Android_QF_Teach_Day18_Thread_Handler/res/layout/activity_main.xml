@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/btn_tuan"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="团购列表" />
+    
+    <Button
+        android:id="@+id/btn_tuan_handler"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="团购列表（封装Handler）" />
+    
+    <Button
+        android:id="@+id/btn_handler_test"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="自定义AsyncTask" />
+
+</LinearLayout>
